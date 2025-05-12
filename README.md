@@ -33,7 +33,7 @@ Step 2: Install Dependencies
 Step 3: Setup the Database
 --------------------------
 - Create a new MySQL database.
-- Import the SQL schema provided in the `/database` directory.
+- Import the SQL schema provided in the project directory(of which cloned).
 
 Step 4: Configure Database Connection
 -------------------------------------
