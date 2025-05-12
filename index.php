@@ -35,7 +35,7 @@ if(empty($text)) {
                 echo "END Invalid option";
         }
     } elseif(!$menu->isRegistered()) {
-        // User registration
+        
         switch($firstOption) {
             case 1:
                 $menu->menuRegister($textArray);
