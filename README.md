@@ -1,15 +1,15 @@
-========================================
+
 Mobile Money (MOMO) USSD Application
-========================================
+
 
 Project Setup Instructions
 ---------------------------
 
 This document provides the necessary steps to set up and run the Mobile Money (MOMO) USSD Application.
 
-==================
+
 1. Prerequisites
-==================
+
 - PHP 7.0 or higher
 - MySQL/MariaDB
 - Apache or Nginx web server
@@ -17,9 +17,9 @@ This document provides the necessary steps to set up and run the Mobile Money (M
 - Ngrok (for public USSD callback testing)
 - Africa’s Talking account with API credentials
 
-==========================
+
 2. Installation Steps
-==========================
+
 
 Step 1: Clone the Repository
 ----------------------------
@@ -60,9 +60,9 @@ Step 6: Admin Panel Setup
 
 ⚠️ Important: Change these credentials in production.
 
-=====================================
+
 3. USSD Integration with Ngrok
-=====================================
+
 
 Step 1: Start Local Server
 --------------------------
