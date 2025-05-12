@@ -12,7 +12,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'] ?? '';
     $password = $_POST['password'] ?? '';
     
-    // Simple hardcoded admin credentials (replace with proper auth)
+    
     if($username === 'admin' && $password === 'admin123') {
         $_SESSION['admin_logged_in'] = true;
         header('Location: index.php');
